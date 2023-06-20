@@ -1,0 +1,244 @@
+#headtop{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position: -200px;
+    position: relative;
+}
+#headtop>div:first-child{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #05050557;
+}
+#headtop>header>figure>img{
+    width: 8%;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+}
+#headtop>header{
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+    position: relative;
+}
+#headtop>header>*{
+    height: 100%;
+}
+#headtop>header>nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+#headtop>header>nav>ul>li{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    transition: 1s;
+}
+#headtop>header>nav>ul>li>a{
+color: white;
+text-transform: uppercase;
+}
+#headtop>header>nav>ul>li>a:hover{
+   color: rgb(231, 153, 7);
+}
+#headtop>section{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    position: absolute;
+    color: white;
+}
+#headtop>section>h1{
+font-size:40px;
+padding-left: 30px;
+transition: 1s;
+}
+#headtop>section>h1:hover{
+color: rgb(231, 153, 7);
+}
+#headtop>section>p{
+    width: 40%;
+    margin:30px 40px;
+    line-height: 25px;
+    transition: 1s;
+}
+#headtop>section>p:hover{
+    letter-spacing: 1px;
+}
+#gallery{
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#gallery>figure{
+    opacity: 0.7;
+    transition: 1s;
+}
+#gallery>figure:hover{
+    opacity: 1;
+    scale: 1.2;
+}
+#middle{
+    width: 80%;
+    height: 100px;
+    background-color: #e6eff1;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+
+}
+#middle>div>h3{
+font-size: 35px;
+text-transform:capitalize;
+padding-left: 30px;
+}
+
+#middle>div>div,#network>article>div{
+    width: 200px;
+    height: 70px;
+    background-color:rgb(231, 153, 7);
+    margin-left: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+#middle .fill{
+color: rgb(255, 255, 255);
+}
+#middle .fill:hover{
+    font-size: 20px;
+}
+#network>*{
+width: 50%;
+height: 400px;
+}
+#network>figure>img{
+    width: 100%;
+    height: auto;
+    object-position:cover;
+}
+#network>article>h3{
+    text-transform: capitalize;
+    font-size: 45px;
+    padding-left: 30px;
+}
+#network>article>p{
+    margin:30px 40px;
+    line-height: 25px;
+}
+#details{
+    color: rgb(255, 255, 255);
+    }
+#prosess{
+    width: 100%;
+    height: 100px;
+    background-color: #e6eff1;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 35px;
+}
+#prosess>h3{
+    transition: 1s;
+}
+#prosess>h3:hover{
+    color: rgb(231, 153, 7);
+}
+#icon{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #e6eff1;
+    display: flex;
+    justify-content: space-evenly;
+}
+#icon>*{
+    width: 20%;
+}
+#icon>div>span{
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 60px;
+    opacity: 0.5;
+    transition: 1s;
+}
+#icon>div>span:hover{
+    font-size: 80px;
+    color: rgb(231, 153, 7);
+    opacity: 1;
+}
+#icon>div>p{
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0.7;
+}
+#icon>div>p:hover{
+    opacity: 1;
+}
+#footer{
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(34, 32, 32);
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer>div{
+    width: 40%; 
+}
+#footer>div>h3,#footer>div>p{
+color: white;
+}
+#footer>div>h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+#footer>div>p{
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 30px;
+}
+#footer>div>address{
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 30px; 
+    color: white;
+    text-transform: capitalize;
+}
+#footer>div>span{
+  color: white;
+  font-size: 25px;
+  text-transform:capitalize;
+  line-height: 35px;
+}
+#end{
+    width: 100%;
+    height: 20vh;
+    background-color:rgb(34, 32, 32);
+}
+#end>h3,#end>p{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+   
+
+    
+
+
+
